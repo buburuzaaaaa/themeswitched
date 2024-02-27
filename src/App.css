@@ -1,0 +1,259 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #f0f2f6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  /* background-color: rgb(189, 7, 7); */
+  color: white;
+}
+
+.header {
+  width: 30%;
+  background-color: black;
+  font-size: 1.5rem;
+  border-radius: 15px;
+  height: 3rem;
+  margin: auto;
+  margin-top: 1rem;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+img {
+  width: 50%;
+  margin: auto;
+}
+
+/* App.css */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.logo {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.header {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.ls9 img {
+  width: 250px;
+  /* Set the width to 250 pixels */
+  height: auto;
+  /* Maintain aspect ratio */
+
+  border-radius: 10px;
+  border: 5px solid black;
+}
+
+hr {
+  outline: none;
+  border: 3.5px solid black;
+}
+
+.ls9 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem;
+  color: black;
+}
+
+.ls7 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem;
+  color: black;
+}
+
+.ls7 img {
+  width: 250px;
+  /* Set the width to 250 pixels */
+  height: auto;
+  /* Maintain aspect ratio */
+
+  border-radius: 10px;
+  border: 5px solid black;
+}
+
+.ls6 img {
+  width: 250px;
+  /* Set the width to 250 pixels */
+  height: auto;
+  /* Maintain aspect ratio */
+
+  border-radius: 10px;
+  border: 5px solid black;
+}
+
+.ls6 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem;
+  color: black;
+}
+
+.ls3 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem;
+  color: black;
+}
+
+.ls3 img {
+  width: 250px;
+  /* Set the width to 250 pixels */
+  height: auto;
+  /* Maintain aspect ratio */
+
+  border-radius: 10px;
+  border: 5px solid black;
+}
+
+.ls2 img {
+  width: 250px;
+  /* Set the width to 250 pixels */
+  height: auto;
+  /* Maintain aspect ratio */
+
+  border-radius: 10px;
+  border: 5px solid black;
+}
+
+.ls2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem;
+  color: black;
+}
+
+.ls1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem;
+  color: black;
+}
+
+.ls1 img {
+  width: 250px;
+  /* Set the width to 250 pixels */
+  height: auto;
+  /* Maintain aspect ratio */
+
+  border-radius: 10px;
+  border: 5px solid black;
+}
+
+.ls9:hover,
+.ls7:hover,
+.ls6:hover,
+.ls3:hover,
+.ls2:hover,
+.ls1:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.ls9:hover img,
+.ls7:hover img,
+.ls6:hover img,
+.ls3:hover img,
+.ls2:hover img,
+.ls1:hover img {
+  filter: grayscale(50%);
+  transition: filter 0.3s ease;
+}
+
+/* Footer.css */
+
+.footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ff6f61;
+}
+
+/* App.css */
+:root {
+  --primary-color-light: #007bff;
+  /* Blue */
+  --primary-color-dark: red;
+  /* Dark */
+}
+
+body.light {
+  --primary-color: var(--primary-color-light);
+}
+
+body.blue {
+  --primary-color: var(--primary-color-dark);
+}
+
+/* Add your other styles */
